@@ -55,7 +55,7 @@ Welcome to my professional digital profile. Here, you’ll find a comprehensive
 summary of my professional journey, accomplishments, and the skills I have 
 developed over the years. This will help you understand my experiences and expertise.
 
-Download my detailed resume in pdf format for more information on my skills and experience.
+<span style="margin-bottom: -20px; display: block;">Download my detailed resume in pdf format for more information on my skills and experience.</span>
 """
 
 with st.container():
