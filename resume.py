@@ -149,13 +149,13 @@ def navigation_bar():
             <a class="nav-link" href="#certifications" style="color: #FFFFFF;">Certifications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills" style="color: #FFFFFF;">Skills Proficiencies</a>
+            <a class="nav-link" href="#skills-proficiencies" style="color: #FFFFFF;">Skills Proficiencies</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work-experience" style="color: #FFFFFF;">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#project-summary" style="color: #FFFFFF;">Projects Summary</a>
+            <a class="nav-link" href="#projects-summary" style="color: #FFFFFF;">Projects Summary</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#education" style="color: #FFFFFF;">Education</a>
