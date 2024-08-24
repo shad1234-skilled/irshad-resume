@@ -117,7 +117,8 @@ def sidebar():
             });
         </script>
     """, unsafe_allow_html=True)
-    
+
+    st.sidebar.menu(["Rerun", "Settings", "Print", "Record a screencast", "About"], hide_menu=True)
     st.sidebar.image(image)
     st.sidebar.markdown("# Mohammad Irshad Khan, B.Sc. (Maths)")
     st.sidebar.markdown("### Data Scientist | Data Science Manager")
