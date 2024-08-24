@@ -15,7 +15,7 @@ img {
 }
 
 #MainMenu {
-    visibility: visible;
+    visibility: hidden;
 }
 footer {
     visibility: hidden;
