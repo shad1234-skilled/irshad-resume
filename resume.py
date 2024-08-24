@@ -65,11 +65,13 @@ with st.container():
 st.markdown("<br>", unsafe_allow_html=True)
 #type_text(markdown_text)
 
-image_url = "https://github.com/shad1234-skilled/irshad-resume/blob/6d63d94ee24955eb6d171f820415a4488ad1d076/image.JPG"
+image_url = "https://github.com/shad1234-skilled/irshad
+-resume/blob/6d63d94ee24955eb6d171f820415a4488ad1d076/image.JPG"
 response = requests.get(image_url)
 image = Image.open(BytesIO(response.content))
 
-pdf_url = "https://github.com/shad1234-skilled/irshad-resume/blob/6d63d94ee24955eb6d171f820415a4488ad1d076/my_resume.pdf"
+pdf_url = "https://github.com/shad1234-skilled/irshad-
+resume/blob/6d63d94ee24955eb6d171f820415a4488ad1d076/my_resume.pdf"
 
  
 def sidebar():
