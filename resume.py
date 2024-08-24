@@ -132,7 +132,7 @@ def navigation_bar():
     # Navigation
     
     st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-    st.markdown(f"""
+    st.markdown("""
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-feJI7DjZZ02yU0d6NKJZ4BzYaRTLT4Rf8Cp5Qu8fTjlSyaOGpVz7w69d6ouojV6h" crossorigin="anonymous"></script>
     """, unsafe_allow_html=True)
