@@ -125,7 +125,14 @@ def sidebar():
     st.sidebar.write("📍 Location: Pune, India")
     st.sidebar.write("📧 Email: mohammadirshad.khan@rediffmail.com")
     st.sidebar.write("🌐 [LinkedIn](https://www.linkedin.com/in/mohammad-irshad-khan-06242b255/) | [GitHub](https://github.com/shad1234-skilled)")
-
+    st.sidebar.markdown(f"""
+    <a href="{pdf_url}" download="my_resume.pdf">
+      <button style="background-color: #FF876e; color: white; border: none; padding: 5px 20px; border-radius: 5px; cursor: pointer; width: 100%;">
+        Download Resume
+      </button>
+    </a>
+    """, unsafe_allow_html=True)
+    
 def navigation_bar():
     #####################
     # Navigation
