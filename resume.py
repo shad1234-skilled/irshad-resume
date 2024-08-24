@@ -177,7 +177,7 @@ def main_content():
         """
         <style>
         .reduce-space {
-            margin-bottom: -20px; /* Adjust this value to control the space */
+            margin-bottom: -10px; /* Adjust this value to control the space */
         }
         </style>
         """,
