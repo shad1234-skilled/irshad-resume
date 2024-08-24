@@ -64,7 +64,7 @@ with st.container():
 st.markdown("<br>", unsafe_allow_html=True)
 #type_text(markdown_text)
 
-image = Image.open('image.jpg')
+image = Image.open('image.png')
 
 pdf_url = "https://github.com/shad1234-skilled/irshad-resume/blob/6d63d94ee24955eb6d171f820415a4488ad1d076/my_resume.pdf"
 
