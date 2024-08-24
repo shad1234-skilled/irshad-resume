@@ -23,3 +23,6 @@ footer {
 header {
     visibility: hidden;
 }
+.stFooter {
+    display: none !important;
+}
