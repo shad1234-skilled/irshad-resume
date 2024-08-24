@@ -55,7 +55,7 @@ Welcome to my professional digital profile. Here, you’ll find a comprehensive
 summary of my professional journey, accomplishments, and the skills I have 
 developed over the years. This will help you understand my experiences and expertise.
 
-<span style="margin-bottom: -10px; display: block;">Download my detailed resume in pdf format for more information on my skills and experience.</span>
+Download my detailed resume in pdf format for more information on my skills and experience.
 """
 
 with st.container():
@@ -172,6 +172,19 @@ def navigation_bar():
     """, unsafe_allow_html=True)
 
 def main_content():
+
+    st.markdown(
+        """
+        <style>
+        .reduce-space {
+            margin-bottom: -20px; /* Adjust this value to control the space */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown('<div class="reduce-space"></div>', unsafe_allow_html=True)
     st.markdown('## Career Summary', unsafe_allow_html=True)
     st.info('''
     •	Results-driven Data Science Manager with 5+ years of Experienced, skilled in building high-performing teams and leading data science projects using CRISP, DDS, Agile, and Scrum methodologies.
