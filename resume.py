@@ -66,7 +66,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 image = Image.open('image.png')
 
-pdf_url = "https://github.com/shad1234-skilled/irshad-resume/main/my_resume.pdf"
+pdf_url = "my_resume.pdf"
 
  
 def sidebar():
