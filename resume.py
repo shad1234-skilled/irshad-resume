@@ -83,7 +83,7 @@ def sidebar():
                 left: 0;
                 height: 200vh;
                 padding-top: 1rem;
-                style="background-color: #f6ffff;
+                style="background-color: #e0fbfc;
             }
             /* Adjust content to start after sidebar */
             .css-18e3th9 {
@@ -316,7 +316,7 @@ if __name__ == '__main__':
     navigation_bar()
     sidebar()
     main_content()
-    gradient('#B5B5B5','#008080','e0fbfc',f"Greetings, I am Irshad", markdown_text)
+    #gradient('#B5B5B5','#008080','e0fbfc',f"Greetings, I am Irshad", markdown_text)
 
 
 # In[ ]:
