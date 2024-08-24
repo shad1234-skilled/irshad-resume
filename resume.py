@@ -66,7 +66,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 image = Image.open('image.png')
 
-pdf_url = "https://github.com/shad1234-skilled/irshad-resume/blob/6d63d94ee24955eb6d171f820415a4488ad1d076/my_resume.pdf"
+pdf_url = "https://raw.githubusercontent.com/shad1234-skilled/irshad-resume/main/my_resume.pdf"
 
  
 def sidebar():
@@ -83,7 +83,7 @@ def sidebar():
                 left: 0;
                 height: 200vh;
                 padding-top: 1rem;
-                style="background-color: #e0fbfc;
+                style="background-color: #e2FFFF;
             }
             /* Adjust content to start after sidebar */
             .css-18e3th9 {
